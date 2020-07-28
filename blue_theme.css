@@ -1,0 +1,210 @@
+.btn-flat{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+ 	background-color:lightblue;   
+    border-radius: 100px;
+	transition: background-color ease-in-out  200ms;
+	border:none;
+}
+
+
+.btn-flat:hover{
+	background-color:#478093;	
+}
+#toolbar button.btn-on .icon{
+	border:none;	
+}
+
+.btn-on{
+	background-color:blue;
+	border-:transparent;
+}
+
+
+.user-nickname{
+    min-width:30ch
+}
+header{
+	background-color:#2D6577;
+	color:black;
+	border:none;
+}
+a{
+	color:black;	
+}
+#owner_logo{
+	background-color:#2A7C96;
+	border-radius:100px;
+}
+#workspace{
+	background-color:#36CFFF;
+	border:none;
+}
+#room_timer{
+	color:transparent;	
+	
+}
+.btn_flat{
+	background-color:blue;	
+}
+
+.block{
+	background-color:#37B4BE;
+	border-radius:20px;
+	border:none;
+	padding:10px
+}
+
+.message-box-content{
+	background-color:#337176;
+	justify-content:center;
+	align-items:center;
+}
+.message-box-wrapper{
+	border:none;	
+}
+.users-list-wrapper{
+	border:none;
+	background-color:transparent;
+}
+.ps__rail-y .ps__thumb-y{
+	display:none;
+	background-color:red;	
+}
+.entry{
+	background-color:#2E656A;
+	border:none;
+}
+.trademark{
+	display:none;
+	background-color:#36CFFF;	
+}
+.trademark a{
+	background-color: white;
+	padding:2px;
+	border-radius:100px
+}
+
+
+.room-timer .icon{
+	background-color:#27474A00;
+	padding:10px;
+	border-radius:100px
+		
+}
+
+.input{
+	background-color:#337176;
+}
+.chat .chat-msg{
+	display:flex;
+	flex-direction:column;
+	border-radius:10px;
+
+	
+	background-color:#35ADB7;	
+}
+.box-grow .row {
+	background-color:#337176;	
+}
+.box-grow .icon-button{
+	background-color:#3465A4;
+	width:25px;
+	height:25px;
+	justify-content:center;
+	align-items:center;
+	padding:1px;
+}
+.commands-box .row{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:100px;
+	overflow:hidden;
+	background-color:#37B4BE;
+
+
+}
+.commands-box {
+/* 	border-radius:100px;	 */
+}
+.col .commands-box{
+	background-color:#37B4BE;
+	
+}
+.chat .chat-msg .message-commands{
+	background-color:transparent;
+}
+.chat .chat-msg .quoted-message{
+	background-color:#2E676B;
+	border-radius:5px;
+
+	border:none;
+}		
+
+.entry, .input, input, select, textarea{
+	border:none;	
+}
+.input.box.dont-break-out.is-rtl{
+	border-radius:100px;
+	border:none;
+	color:white;
+}
+
+.input .box .dont-break-out .is-rtl::placeholder{
+	color:white;
+}
+.row .block-header{
+	background-color:transparent;	
+}
+.row .toolbar .toolbar2{
+	background-color:#37B4BE;			
+}
+.box-grow .row{
+	background-color:#37B4BE;				
+}
+.chat .message-box-content .ps__thumb-y{
+	display:none;
+	background-color:blue;
+	border-radius:10px;
+}
+
+.user-action .btn-flat{
+	background-color:blue;
+	width:15px;
+	height:15px;
+	margin-right:50px;
+}
+.login-page{
+	background-image:url('https://cdn.wallpapersafari.com/15/35/HUT5R7.jpg');	
+}
+.menu-items{
+	background-color:#2F696D;
+	border-radius:10px;
+}
+.menu-items li{
+	transition: color ease 200ms;
+	transition: background-color ease 200ms;
+}
+
+.menu-items li:hover{
+	background-color:#D0FCFF;
+	color:black;
+}
+
+.user-icon{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#36CFFF;
+	border-radius:100px;
+	padding:0;
+}
+
+.user-nickname{
+	color:white;
+	margin-right:10px
+}
+
+
