@@ -19,6 +19,8 @@
 .btn-on{
 	background-color:blue;
 	border-:transparent;
+	box-shadow:0px 0px 10px 1px black;
+
 }
 
 
@@ -26,6 +28,7 @@
     min-width:30ch
 }
 header{
+	display:none !important;
 	background-color:#2D6577;
 	color:black;
 	border:none;
@@ -56,6 +59,7 @@ a{
 	padding:10px
 }
 
+
 .message-box-content{
 	background-color:#337176;
 	justify-content:center;
@@ -77,9 +81,25 @@ a{
 	border:none;
 }
 .trademark{
-	display:none;
-	background-color:#36CFFF;	
+	display:auto;
+	background-color:#36CFFF;
 }
+.trademark::after{
+	content:'theme by toutounchi.ma@gmail.com';
+	font-size:.5 rem;
+	background-color:white;
+	border-radius:100px;
+	color:black;
+	font-size:10px;
+	margin-left:10px;
+	padding:2px;
+	opacity:.1;
+	transition: opacity ease 500ms;
+}
+.trademark:hover::after{
+	opacity:1;
+}
+
 .trademark a{
 	background-color: white;
 	padding:2px;
@@ -182,6 +202,8 @@ a{
 .menu-items{
 	background-color:#2F696D;
 	border-radius:10px;
+	box-shadow:5px 2px 30px .25px black;
+
 }
 .menu-items li{
 	transition: color ease 200ms;
@@ -191,6 +213,7 @@ a{
 .menu-items li:hover{
 	background-color:#D0FCFF;
 	color:black;
+	
 }
 
 .user-icon{
@@ -205,6 +228,52 @@ a{
 .user-nickname{
 	color:white;
 	margin-right:10px
+}
+.video-wrapper .row{
+	background-color:transparent;	
+}
+.video-wrapper .media-title{
+/* 	opacity:0; */
+	background-color:#2D6577;	
+}
+.media-player.video .controls{
+	background-color:transparent !important;	
+}
+.controls-wrapper .controls .start-icon{
+	border-radius:100px;
+	padding:5px;
+	width:30px;
+	height:30px;
+	background-color:#2D6577;
+}
+
+#login_block .col-start .box-grow{
+	background-color:transparent;	
+}
+.login-form input {
+	color:black;
+	background-color:#5CE7FF00 !important;
+	border-radius:100px;
+
+}
+.login-form input:hover {
+	background-color:red;
+}
+#btn_login{
+	background-color:#00D4FF55;
+	border-radius:50px;
+}
+
+.login-form .row{
+	background-color:transparent;	
+}
+
+.block-title{
+	background-color:transparent !important;	
+}
+
+#login_desc{
+	display:none;	
 }
 
 
