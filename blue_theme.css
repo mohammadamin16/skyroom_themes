@@ -10,16 +10,32 @@
 
 
 .btn-flat:hover{
-	background-color:#478093;	
+	background-color:#36CFFF !important;
+	border:none !important;
+	
 }
 #toolbar button.btn-on .icon{
 	border:none;	
 }
+#toolbar .btn-flat{
+	background-color:transparent ;
+		
+}
+#app_menu button{
+	background-color:#2D6469;
+	width:50px !important;
+	height:50px !important;
+	box-shadow: 0 0 3px .25px black !important;
 
+}
+
+#app_menu button:hover{
+	border:none !important;
+	animation:spin .5s linear .5;
+}
 .btn-on{
-	background-color:blue;
-	border-:transparent;
-	box-shadow:0px 0px 10px 1px black;
+	background-color:#36CFFF !important;
+/* 	box-shadow:0px 0px 10px 1px black; */
 
 }
 
@@ -56,7 +72,13 @@ a{
 	background-color:#37B4BE;
 	border-radius:20px;
 	border:none;
-	padding:10px
+	box-shadow: 0 0 5px .25px black !important;
+	padding:10px;
+	transition: box-shadow ease 200ms;
+}
+.block:hover{
+	box-shadow: 0 0 10px .5px black !important;
+	
 }
 
 
@@ -80,27 +102,52 @@ a{
 	background-color:#2E656A;
 	border:none;
 }
+#page_room{
+	background-color:#36CFFF;
+	
+}
+#toolbar{
+	box-shadow: 0 0 3px .25px black !important;
+
+	background-color:#2E656A;
+	padding:10px;
+	border-radius:100px;
+}
+
 .trademark{
 	display:auto;
-	background-color:#36CFFF;
+/* 	background-color:#36CFFF; */
+	background-color:transparent !important;
 }
 .trademark::after{
-	content:'theme by toutounchi.ma@gmail.com';
-	font-size:.5 rem;
-	background-color:white;
+	content:'blue-theme by toutounchi.ma@gmail.com';
+	font-size:.8rem;
+	background-color:#2E656A;
 	border-radius:100px;
-	color:black;
-	font-size:10px;
+	color:white;
+/* 	font-size:10px; */
 	margin-left:10px;
 	padding:2px;
-	opacity:.1;
+	opacity:.1 !important;
 	transition: opacity ease 500ms;
 }
 .trademark:hover::after{
-	opacity:1;
+	opacity:1 !important;
+}
+.user-row{
+	transition: background-color ease 300ms;	
+}
+.user-row:hover{
+	background-color:#fff0 !important;
+
+	background-image: linear-gradient(to right, #fff0,#fff5,#fff0); !important;
+}
+.ps__thumb-x{
+	display:none !important;	
 }
 
 .trademark a{
+	display:none;
 	background-color: white;
 	padding:2px;
 	border-radius:100px
@@ -197,7 +244,7 @@ a{
 	margin-right:50px;
 }
 .login-page{
-	background-image:url('https://cdn.wallpapersafari.com/15/35/HUT5R7.jpg');	
+	background-image:url('http://getwallpapers.com/wallpaper/full/e/3/5/246528.jpg');	
 }
 .menu-items{
 	background-color:#2F696D;
@@ -254,14 +301,19 @@ a{
 	color:black;
 	background-color:#5CE7FF00 !important;
 	border-radius:100px;
-
+	text-align:center;
 }
 .login-form input:hover {
-	background-color:red;
+
 }
-#btn_login{
+#btn_login, #btn_guest{
 	background-color:#00D4FF55;
 	border-radius:50px;
+}
+
+#btn_guest{
+	background-color:#33739055;
+	
 }
 
 .login-form .row{
@@ -275,5 +327,7 @@ a{
 #login_desc{
 	display:none;	
 }
-
+.login-title{
+	display:none;	
+}
 
